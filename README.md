@@ -1,7 +1,7 @@
 # Child Wellness Data Portfolio
 
 **Prepared by:** Lavonia Munedzimwe  
-**Role Focus:** Data Entry Specialist | Aspiring Data Analyst  
+**Role Focus:** Data Entry Specialist | Junior Data Analyst  
 
 ---
 
