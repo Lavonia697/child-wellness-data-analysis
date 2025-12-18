@@ -6,7 +6,7 @@
 ---
 
 ## Project Overview
-This project analyses child health, well-being, and school performance data collected from multiple sources including schools, clinics, and community programs.
+This project analyzes child health, well-being, and school performance data collected from multiple sources such as  schools, clinics, and community programs.
 
 The goal is to demonstrate strong data entry practices, data cleaning, and exploratory analysis using Microsoft Excel, with a focus on producing accurate, decision-ready insights for NGO and public-sector stakeholders.
 
@@ -109,7 +109,7 @@ Additional analytical fields were created to improve interpretability:
 
 ## Limitations
 - Some health checkup dates were unavailable due to reporting gaps
-- 55% of Well-being scores were missing values making data imputation inappropriate 
+- 55% of Well-being scores were missing values making data imputation impossible 
 
 ---
 
@@ -141,5 +141,16 @@ A substantial proportion of children lack recent health checkups, which may dela
 3. Improve access to routine health checkups
 4. Standardise data collection practices across institutions
 5. Conduct periodic data quality audits to improve reporting reliability
+
+# Data Dictionary
+
+| Column Name         | Description                        | Data Type   |
+| ------------------- | ---------------------------------- | ----------- |
+| Age_Group           | Categorised age bands for analysis | Categorical |
+| Attendance_Category | Grouped attendance levels          | Categorical |
+| Checkup_Status      | Health checkup recency indicator   | Categorical |
+
+
+
 
 
