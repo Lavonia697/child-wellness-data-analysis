@@ -1,37 +1,63 @@
-# Child Wellness Data Portfolio
+# Child Wellness Data Analysis Portfolio
 
-**Prepared by:** Lavonia Munedzimwe  
+**By:** Lavonia Munedzimwe
 **Role Focus:** Data Entry Specialist | Junior Data Analyst  
+**Contact:**  
+✉️lavoniamandi@icloud.com | 🔗 https://www.linkedin.com/in/lavonia-munedzimwe-a89221294/
+
 
 ---
 
 ## Project Overview
-This project analyzes child health, well-being, and school performance data collected from multiple sources such as  schools, clinics, and community programs.
-
-The goal is to demonstrate strong data entry practices, data cleaning, and exploratory analysis using Microsoft Excel, with a focus on producing accurate, decision-ready insights for NGO and public-sector stakeholders.
+This project explores patterns in child health and wellbeing using a real-world style dataset collected from schools, clinics, and community programmes.  
+The focus is on structured data entry, robust cleaning, feature engineering, and clear visual insights to support data-driven decision-making in NGO and educational settings.
 
 ---
 
-## Tools Used
-- Microsoft Excel
-  - Data validation
-  - Data cleaning
-  - Pivot Tables
-  - Pivot Charts
-- PowerPoint (reporting)
-- GitHub (version control & documentation)
+## Tools & Workflow
+ **Microsoft Excel**  
+  • Data cleaning and formatting  
+  • Feature engineering (Age groups, Attendance categories, Checkup status)  
+  • Pivot Tables and Pivot Charts  
+ **PowerPoint & PDF**  
+  • Visual storytelling  
+  • Structured report delivery  
+ **GitHub**  
+  • Version control and documentation
 
 ---
 
 ## Project Structure
 - **Raw data:** Original dataset as received
-- **Cleaned data:** Standardised, validated, and corrected dataset
-- **Modified data:** To derive and populate new calculation-specific columns (age group, attendance category, checkup status)
+- **Cleaned data:** Standardised and validated fields
+- **Modified data:** Engineered analytical fields (Age Group, Attendance Category, Checkup Status)
 - **Processed data:** Analysis-ready dataset used for visualisations
 - **Visuals:** Key charts exported from Excel
 - **Portfolio:** Final presentation and PDF summary
 
 ---
+
+## Data Workflow
+### 1. Raw Data
+- Original dataset as received
+- No transformations applied
+
+### 2. Cleaned Data
+- Removal of duplicates
+- Standardised date and percentage formats
+- Addressed missing values using appropriate methods
+- Corrected inconsistencies across records
+  
+### 3. Modified Data (Feature Engineering)
+- Created analytical fields to support segmentation and comparison:
+  - Age Group categories
+  - Attendance rate bands
+  - Health checkup status indicators
+
+### 4. Processed Data
+- Final analysis-ready dataset
+- Used to create pivot tables, pivot charts, and visual insights
+  
 
 ## Key Analysis Areas
 - Attendance rates and well-being outcomes
@@ -43,31 +69,6 @@ The goal is to demonstrate strong data entry practices, data cleaning, and explo
 
 ## Notes
 This project was intentionally completed using an Excel-only workflow to reflect common NGO and operational environments where Python or SQL may not always be available.
-
----
-## Data Workflow
-
-The project follows a structured, Excel-based data workflow designed to reflect real-world NGO and operational reporting environments.
-
-### 1. Raw Data
-- Original dataset as received
-- No transformations applied
-
-### 2. Cleaned Data
-- Removal of duplicates
-- Standardised date and percentage formats
-- Addressed missing values using appropriate methods
-- Corrected inconsistencies across records
-
-### 3. Modified Data (Feature Engineering)
-- Created analytical fields to support segmentation and comparison:
-  - Age Group categories
-  - Attendance rate bands
-  - Health checkup status indicators
-
-### 4. Processed Data
-- Final analysis-ready dataset
-- Used to create pivot tables, pivot charts, and visual insights
 
   ---
 
@@ -107,50 +108,41 @@ Additional analytical fields were created to improve interpretability:
 
 ---
 
-## Limitations
-- Some health checkup dates were unavailable due to reporting gaps
-- 55% of Well-being scores were missing values making data imputation impossible 
-
----
-
-## Ethical Considerations
-- All personal identifiers were anonymised
-- Data used strictly for demonstration and portfolio purposes
-
----
-
-# Insights & Recommendations
-
 ## Key Insights
+- Consistent attendance generally associates with higher well-being
+- Significant missingness in key fields highlights reporting gaps
+- Age group patterns show variation in checkup completion and wellness
+- Outliers and data quality issues were documented and handled carefully
 
-### Attendance & Wellbeing
-Higher attendance rates are generally associated with higher well-being scores, although variability suggests additional influencing factors beyond attendance alone.
+  ---
 
-### Data Completeness & Reporting Gaps
-A notable proportion of records contain missing values for key fields such as well-being scores and health checkup dates. These gaps limit certain analyses but also highlight inconsistencies in data collection practices, emphasizing the need for improved standardisation and reporting processes.
+## Visualisations
+See `/visuals/` folder for exported charts:
+- `attendance_vs_wellbeing.png`
+- `health_checkup_status.png`
+- `wellbeing_vs_gender.png`
+- `correlation_metrics.png`
+- `age_group_vs_checkup_status.png`
+- `country_pivot_summary.png`
 
-### Health Access
-A substantial proportion of children lack recent health checkups, which may delay early identification of physical or psychological concerns.
+  ## How to Reproduce
+This is an Excel-native workflow:
+1. Open the raw dataset in Excel
+2. Clean using data validation and standardisation
+3. Add feature columns using `IF` and conditional formulas
+4. Build Pivot Tables and Pivot Charts
+5. Export visuals and include in portfolio
 
----
+## Outputs
+ `/data/cleaned/` — cleaned dataset  
+`/data/modified/` — feature-enhanced dataset  
+ `/data/processed/` — analysis-ready file  
+ `/visuals/` — chart PNGs  
+ `/portfolio/` — PDF & PPTX deliverables
 
-## Recommendations
-
-1. Strengthen attendance monitoring to support early intervention
-2. Expand school-based wellbeing and mental health support programmes
-3. Improve access to routine health checkups
-4. Standardise data collection practices across institutions
-5. Conduct periodic data quality audits to improve reporting reliability
-
-# Data Dictionary
-
-| Column Name         | Description                        | Data Type   |
-| ------------------- | ---------------------------------- | ----------- |
-| Age_Group           | Categorised age bands for analysis | Categorical |
-| Attendance_Category | Grouped attendance levels          | Categorical |
-| Checkup_Status      | Health checkup recency indicator   | Categorical |
-
-
+## Contact
+Lavonia Munedzimwe  
+✉️ lavoniamandi@icloud.com | 🔗 LinkedIn profile
 
 
 
